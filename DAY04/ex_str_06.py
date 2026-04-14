@@ -16,3 +16,16 @@ print(f"{filename1} -> {ret}\n")
 
 ret = filename1.startswith("ima")
 print(f"{filename1} -> {ret}\n")
+
+ret = filename1.startswith("d")
+print(f"{filename1} -> {ret}\n")
+
+
+# >>> 특정 문자열/문자로 끝나는지 검사 진행 : endwith()
+ret = filename2.endswith("sv")
+print(f"{filename1} -> {ret}\n")
+
+ret = filename2.endswith(("sv", "jpg", "png")) # 튜플로 입력하여 OR 역할을 해줌
+print(f"{filename1} -> {ret}\n")
+
+
